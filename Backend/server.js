@@ -5,7 +5,10 @@ const mysql = require("mysql");
 const cors = require("cors");
 
 const app = express();
+<<<<<<< HEAD
+=======
 app.use(express.json())
+>>>>>>> 378ed47 (Se hace el login, la creacion de rutas privadas y se une con el requisito funcional de crear cursos)
 app.use(cors());
 
 const db = mysql.createConnection({
@@ -15,15 +18,22 @@ const db = mysql.createConnection({
     database: process.env.DB_NAME,
 });
 
+<<<<<<< HEAD
+app.get("/libros", (req, res) => {
+    const sql = "SELECT * FROM libros";
+=======
 app.get("/users", (req, res) => {
     const sql = "SELECT username, id FROM users WHERE rol != 'Admin' AND rol != 'Teacher'";
 
+>>>>>>> 378ed47 (Se hace el login, la creacion de rutas privadas y se une con el requisito funcional de crear cursos)
     db.query(sql, (err, data) => {
         if (err) return res.json(err);
         return res.json(data);
     });
 });
 
+<<<<<<< HEAD
+=======
 
 app.get("/courses/addCourse:name/:courseCode/:participants", (req, res) => {
     var sql = "INSERT INTO courses (name, courseCode) VALUES (?,?)";
@@ -67,11 +77,15 @@ app.get("/users/:username/:pass", (req, res) => {
 
 
 
+>>>>>>> 378ed47 (Se hace el login, la creacion de rutas privadas y se une con el requisito funcional de crear cursos)
 app.get("/", (re, res) => {
     return res.json("hello from backend side");
 });
 
+<<<<<<< HEAD
+=======
 
+>>>>>>> 378ed47 (Se hace el login, la creacion de rutas privadas y se une con el requisito funcional de crear cursos)
 app.listen(8081, () => {
     console.log("listening");
 });

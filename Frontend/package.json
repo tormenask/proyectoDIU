@@ -10,6 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+<<<<<<< HEAD
+=======
     "@fortawesome/fontawesome-svg-core": "^6.4.2",
     "@fortawesome/free-brands-svg-icons": "^6.4.2",
     "@fortawesome/free-regular-svg-icons": "^6.4.2",
@@ -17,12 +19,16 @@
     "@fortawesome/react-fontawesome": "^0.2.0",
     "@popperjs/core": "^2.11.8",
     "bootstrap": "^5.3.2",
+>>>>>>> 378ed47 (Se hace el login, la creacion de rutas privadas y se une con el requisito funcional de crear cursos)
     "localforage": "^1.10.0",
     "match-sorter": "^6.3.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.16.0",
+<<<<<<< HEAD
+=======
     "react-select": "^5.7.7",
+>>>>>>> 378ed47 (Se hace el login, la creacion de rutas privadas y se une con el requisito funcional de crear cursos)
     "sort-by": "^1.2.0"
   },
   "devDependencies": {
@@ -33,7 +39,10 @@
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
+<<<<<<< HEAD
+=======
     "sass": "^1.69.3",
+>>>>>>> 378ed47 (Se hace el login, la creacion de rutas privadas y se une con el requisito funcional de crear cursos)
     "vite": "^4.4.5"
   }
 }
